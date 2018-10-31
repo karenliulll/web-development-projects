@@ -1,0 +1,31 @@
+html{line-height:1.3;margin:8%;padding:0;background:url("background.jpg");}
+header{top:0;text-align:center;}
+.navi-flex-container ul{flex-wrap:wrap;list-style:none;display:flex;margin-left:5%;}
+li{display:inline;}
+li a{font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";background-color:gainsboro;display:block;text-align:center;padding:0.5em;color:darkred;text-decoration:none;width:12em;}
+.w3-bar{font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";background-color:gainsboro;display:block;text-align:center;padding:0.5em;color:darkred;text-decoration:none;}
+h1{font-family:chalkduster;color:darkred;}
+h2{font-family:cambria;font-size:1em;font-weight:200;}
+h3{font-family:cambria;font-size:1em;font-weight:200;}
+.flex-item1{width:90%;height:auto;}
+.flex-item2{width:90%;height:auto;}
+.flex-item3{object-position:center;justify-content:center;width:90%;height:auto;}
+srcset{object-position:center;justify-content:center;width:100%;height:auto;}
+.container{display:flex;flex-flow:row wrap;object-position:center;}
+.c1, .c2, .c3, .c4{width:100%;}
+img{max-width:inherit}
+@media (min-width:45em){.flex-item1{width:42%;height:auto;order:1}
+.flex-item2{width:42%;height:auto;order:2}
+.c1{order:3}
+.c2{order:4}
+.c3{order:5}
+.c4{order:6}
+.flex-item1{object-position:center;width:inherit;}
+.flex-item2{object-position:center;width:inherit;}
+.flex-item3{object-position:center;width:inherit;}
+.navi-flex-container ul{justify-content:center;}
+h2{font-size:1.5em;font-weight:200;}
+h3{font-size:1.2em;font-weight:200;}
+img{max-width:inherit}
+}
+.w3-bar{font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";background-color:gainsboro;display:block;text-align:center;padding:0.5em;color:darkred;text-decoration:none;}

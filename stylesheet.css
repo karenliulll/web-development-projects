@@ -1,0 +1,81 @@
+html {
+   color: black;
+   line-height: 1;
+   margin: 3%; 
+background: url("background image2.jpg") top fixed repeat;
+        }
+
+aside-flex-container {
+	display: flex; 
+	position: relative;
+	flex-wrap: wrap;
+	}
+
+.flex-item {
+	max-width: 100%;
+	margin-left: 40%;
+	object-position: center;
+	border: hidden;
+	border-radius: 5%;
+}
+
+
+.navi-bar{
+	list-style-type: none;
+	margin: 0;
+	font-size: 1.2em;
+	width: 160px;
+	font-family: 'Raleway', sans-serif, bold;
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 20%;
+	background-color: #f1f1f1;
+	position:fixed;
+	height: 40%;
+	overflow: auto;
+	border: thick;
+	border-color: lightgoldenrodyellow;
+	
+}
+
+li a {
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+h1 {font-family: Lithos Pro;
+	font-size: 1.7em;
+    color: darkred;  
+	text-align: center }
+h2 {font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 1em;
+    color: black;  
+	text-align: center }
+h3 {text-align: left;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+h4 {font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	line-height: 1.5;
+}
+h5 {font-family: Cambria;
+	font-style: italic;
+	font-size: 1.2em;
+	}
+h6 {font-family: Cambria;
+	font-style: italic;
+	font-size: 1.2em;
+	text-align: right;
+}
+
+h7 {font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 1.2em;
+    color: black;  
+}
+
